@@ -1243,8 +1243,8 @@ textarea {
     .column {
         -ms-flex: 0 0 100%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 50%;
+        max-width: 80%;
         margin-left: 0;
         margin-right: 0;
         padding: 0;
@@ -3486,7 +3486,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__bg {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url("https://images.pexels.com/photos/148275/pexels-photo-148275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4249,11 +4249,13 @@ html.no-csstransitions .s-hero__content {
  * ## portfolio list
  * ------------------------------------------------------------------- */
 .s-portfolio__list {
-    max-width: calc(var(--width-max) + 40px);
+    max-width: calc(var(--width-max));
     padding-top: var(--vspace-1_5);
 }
 
 .folio-item {
+    margin-top: 10%;
+    margin-right: 10%;
     position: relative;
     overflow: hidden;
 }
